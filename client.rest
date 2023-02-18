@@ -2,13 +2,12 @@
 GET http://localhost:3000 HTTP/1.1
 
 ###
-POST http://localhost:3000 HTTP/1.1
-
+POST http://localhost:3000/campsites HTTP/1.1
 Content-Type: application/json
 
 {
     "name": "sample",
-    "time": "Wed, 21 Oct 2023 18:34:34 GMT"
+    "description": "Wed, 21 Oct 2023 18:34:34 GMT"
 }
 ###
 GET http://localhost:3000/broken.html HTTP/1.1
@@ -16,3 +15,8 @@ GET http://localhost:3000/broken.html HTTP/1.1
 GET http://localhost:3000/broken.cgi HTTP/1.1
 ###
 GET http://localhost:3000/aboutus.html HTTP/1.1
+###
+GET http://localhost:3000/campsites
+###
+GET http://localhost:3000/campsites/23
+###
