@@ -1,3 +1,4 @@
+## this file drives the "Rest Client" vscode extension. I use instead of Postman
 ################## MAIN ###
 GET http://localhost:3000 HTTP/1.1
 ###
